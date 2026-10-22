@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "title": {
+    "en": "LangLink dsh plugins",
+    "zh": "LangLink dsh 插件"
+  },
+  "description": {
+    "en": "Internal and public LangLink plugins for DeepSeek Harness.",
+    "zh": "LangLink 为 DeepSeek Harness 提供的插件索引。"
+  },
+  "plugins": [
+    {
+      "name": "@langlink/dsh-l10n",
+      "title": {
+        "en": "LangLink Localization Tools",
+        "zh": "LangLink 本地化工具"
+      },
+      "description": {
+        "en": "XLIFF/SDLXLIFF, TM/term matching, deterministic QA, translate/polish, and DOCX/XLSX/PPTX extraction/backfill for dsh.",
+        "zh": "为 dsh 提供 XLIFF/SDLXLIFF、TM/术语匹配、确定性 QA、翻译/润色，以及 DOCX/XLSX/PPTX 抽取回填。"
+      },
+      "author": "LangLink",
+      "homepage": "https://github.com/langlink-tech/langlink-harness-toolsets",
+      "repository": {
+        "url": "https://github.com/langlink-tech/langlink-harness-toolsets",
+        "directory": "packages/dsh-l10n"
+      },
+      "metadata": {
+        "keywords": ["localization", "translation", "xliff", "sdlxliff", "tm", "qa", "dsh"]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792640520,
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0"
+          },
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    }
+  ]
+}
