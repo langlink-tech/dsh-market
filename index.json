@@ -26,9 +26,27 @@
         "directory": "packages/dsh-l10n"
       },
       "metadata": {
-        "keywords": ["localization", "translation", "xliff", "sdlxliff", "tm", "qa", "dsh"]
+        "keywords": [
+          "localization",
+          "translation",
+          "xliff",
+          "sdlxliff",
+          "tm",
+          "qa",
+          "dsh"
+        ]
       },
       "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1793693930,
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0"
+          },
+          "source": {
+            "type": "npm"
+          }
+        },
         {
           "version": "0.1.0",
           "publishTimestamp": 1792640520,
